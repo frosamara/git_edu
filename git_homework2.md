@@ -47,19 +47,19 @@
 **Создание и настройка удаленного репозитория**
 1. Создать аккаунт на хосте, например [Github.com](https://github.com/)
 2. Создать локальный репозиторий
-3. Создать связь между локальным и удаленным репозиторием
-   3.1 create a new repository on the command line
-echo "# Web_study" >> README.md
-  git init
-  git add README.md
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/frosamara/Web_study.git
-  git push -u origin main
-   3.2 push an existing repository from the command line
-git remote add origin https://github.com/frosamara/Web_study.git
-  git branch -M main
-  git push -u origin main
+3. Создать связь между локальным и удаленным репозиторием <br>
+   3.1 create a new repository on the command line  
+echo "# Web_study" >> README.md  
+  git init  
+  git add README.md  
+  git commit -m "first commit"  
+  git branch -M main  
+  git remote add origin https://github.com/frosamara/Web_study.git  
+  git push -u origin main  <br>
+   3.2 push an existing repository from the command line  
+git remote add origin https://github.com/frosamara/Web_study.git  
+  git branch -M main  
+  git push -u origin main <br>
 5. Отправить (команда git push) ваш локальный репозиторий в удаленный, потребуется авторизация на удаленном репозитории. Данная команда вызывается после каждого изменения на локальном репозитории.
 6. Команда pull вызывает состояние удаленного репозитория на локальный в случае внесения в него изменения из других источников.
 
